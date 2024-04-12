@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Event Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>What Happened on This Day?</h1>
+            <p>Select a date to find out.</p>
+        </header>
+        <div class="input-container">
+            <label for="dateInput">Enter a Date:</label>
+            <input type="text" id="dateInput" placeholder="MM-DD">
+            <button onclick="fetchEvents()">Find Events</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
